@@ -6,6 +6,14 @@ public class Main {
 		Profesor fonsi = new Profesor("Fonsi", 200, 20);
 		Profesor antonio = new Profesor("Antonio", 69, 2);
 
+		fonsi.atacar(antonio);
+		
+		antonio.comprobarMuerte();
+		
+		antonio.atacar(fonsi);
+		
+		fonsi.comprobarMuerte();
+
 	}
 
 }
