@@ -20,5 +20,29 @@ public class Profesor {
 		this.vida = v;
 		this.daño = d;
 	}
+
+	// GETTERS Y SETTERS
+    public String getNombre() {
+        return this.nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
+    
+    public int getVida() {
+        return this.vida;
+    }
+    public void setVida(int vida) {
+        this.vida = vida;
+    }
+    
+    
+    public int getDaño() {
+        return this.daño;
+    }
+    public void setDaño(int daño) {
+        this.daño = daño;
+    }
 	
 }
