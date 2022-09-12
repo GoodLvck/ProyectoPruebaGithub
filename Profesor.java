@@ -21,6 +21,27 @@ public class Profesor {
 		this.daño = d;
 	}
 
+  // FUNCIONES
+	public void atacar(Profesor objetivo) {
+		
+		objetivo.perderVida(this.daño);
+		
+	}
+	
+	
+	public void perderVida(int daño) {
+		
+		this.vida -= daño;
+		
+	}
+	
+	
+	public boolean comprobarMuerte() {
+		
+		return (this.vida <= 0);
+	}
+  
+  
 	// GETTERS Y SETTERS
     public String getNombre() {
         return this.nombre;
